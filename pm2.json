@@ -1,0 +1,19 @@
+{
+    "apps": [
+      {
+        "name": "accommodation-site",
+        "script": "./server.js",
+        "out_file": "./logs/accommodation-site.log",
+        "error_file": "./logs/accommodation-site_error.log",
+        "log_date_format": "YYYY-MM-DD HH:mm:ss",
+        "merge_logs": true,
+        "interpreter_args": "--max-http-header-size=10485760",
+        "env": {
+          "NODE_ENV": "production",
+          "SERVER_ENV": "production",
+          "PORT": "7000"
+        }
+      }
+    ]
+  }
+  

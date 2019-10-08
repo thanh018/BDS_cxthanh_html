@@ -1,0 +1,19 @@
+
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    [
+      "inline-react-svg"
+    ],
+    [
+      "babel-plugin-root-import",
+      {
+        "rootPathPrefix": "~",
+        "rootPathSuffix": "./"
+      }
+    ],
+    ["@babel/plugin-proposal-do-expressions"]
+  ]
+}
