@@ -23,7 +23,7 @@
     "antd": "3.17.0",
     "aws-appsync": "1.7.2",
     "aws-appsync-react": "1.2.7",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.26.0",
     "canvas": "^2.5.0",
     "classnames": "^2.2.6",
